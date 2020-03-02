@@ -1,4 +1,4 @@
-# WIP: ~~On technical debt~~ Why all projects have technical debt.
+# On Technical Debt or Why All Projects Have Technical Debt.
 
 ## Leverage
 
@@ -54,17 +54,17 @@ can assume that it will live one around 7 more years.
 Extrapolating from this theory. You should start out all projects fugly-hacking
 everything. Just trying to get it going on a first solution. Because a week or
 two in you might end up with requirement changes, or an unexpected fire in
-another project or Or you might hit on unexpected roadblocks. And at the end of
+another project or you might hit on unexpected roadblocks. And at the end of
 the day. You might be closer to an MVP if you do it this way than if you try to
 plan your cathedral from the start.
 
 In other words, start by leveraging your project and pay of the debt later on
 in the project.
 
-## Present Value
+## Present Value/Discounted Future Value
 
-~~This line of thinking can be likened to the finance term "Present Value". In
-which the current value of something is something....~~
+<!-- ~~This line of thinking can be likened to the finance term "Present Value". In
+which the current value of something is something....~~ -->
 
 To borrow a term from the ML-community. This line of thinking can also be
 thought of as a "Discounted future reward".
@@ -78,6 +78,5 @@ Therefore we should mostly keep chasing the nearest goalpost which vaguely
 takes us in the direction in the direction of the end goal, without trying to
 prematurely optimize our path to get there a better way.
 
-
-## Something something
+<!-- ## Something something -->
 
