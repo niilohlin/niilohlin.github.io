@@ -61,10 +61,7 @@ plan your cathedral from the start.
 In other words, start by leveraging your project and pay of the debt later on
 in the project.
 
-## Present Value/Discounted Future Value
-
-<!-- ~~This line of thinking can be likened to the finance term "Present Value". In
-which the current value of something is something....~~ -->
+## Discounted Cash Flow
 
 To borrow a term from the ML-community. This line of thinking can also be
 thought of as a "Discounted future reward".
@@ -73,6 +70,8 @@ In Q-learning. We discount a reward function for future rewards. Mathematically
 we do this to get our reward function to converge, but there are a very natural
 way of thinking about it. Since the world and the assumptions we make about it
 are imperfect, we can expect that our planning about it is too.
+
+A similar concept in finance are called Discounted cash flow.
 
 Therefore we should mostly keep chasing the nearest goalpost which vaguely
 takes us in the direction in the direction of the end goal, without trying to
