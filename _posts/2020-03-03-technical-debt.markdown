@@ -44,10 +44,10 @@ this is rarely the case.
 ## Project life span
 
 In reality your projects are usually expected to live for a couple of months to
-a couple of years. With some exceptions of course. But technical dept is not
+a couple of years. With some exceptions of course. But technical debt is not
 really affected if the code does not change. If the code is just run and never
-touched, the dept cannot be seen as increasing. It's only if the code needs to
-be changed that the dept can be considered "taking interest". So the question
+touched, the debt cannot be seen as increasing. It's only if the code needs to
+be changed that the debt can be considered "taking interest". So the question
 is really, for how long can the code you are working on right now be considered
 "actively developed"? Since we only really have one data-point for this - the
 length of time in which the code has already been actively developed - we can
