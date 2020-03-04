@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "On technical debt"
+date:   2020-03-04 14:23:05 +0100
+categories: garbage
+---
+
 # On Technical Debt or Why All Projects Have Technical Debt.
 
 ## Leverage
