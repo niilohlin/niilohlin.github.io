@@ -31,6 +31,11 @@ github_username: niilohlin
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-graphviz
+
+graphviz:
+  options: "-Tsvg"
+  command: dot
 
 # Exclude from processing.
 # The following items will not be processed, by default.
