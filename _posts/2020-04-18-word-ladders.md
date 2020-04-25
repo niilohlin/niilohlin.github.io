@@ -12,16 +12,7 @@ sequence of words with the same length and with only one letter differing. For
 example this is a word ladder of length 3 between the words "Word" and "Good"
 
 {:refdef: style="text-align: center;"}
-{% graphviz %}
-graph "Basic word ladder" {
-    rankdir = TB;
-    rank = same;
-
-    Word -- Wood -- Good;
-    {rank=same; Word; Wood; Good; }
-}
-
-{% endgraphviz %}
+![Basic word ladder](/assets/images/basic_word_ladder.png)
 {: refdef}
 
 We can start asking some interesting questions using this concept. Since all
@@ -109,21 +100,7 @@ find some interesting things. The first thing that stands out is that the sub
 ladder
 
 {:refdef: style="text-align: center;"}
-{% graphviz %}
-graph "Basic word ladder" {
-    rankdir = TB;
-    rank = same;
-
-    biol -- bios -- bros -- pros;
-    bios -- bits;
-    pros -- prot;
-    pros -- proc;
-
-    {rank=same; bios; bros; pros; }
-
-}
-
-{% endgraphviz %}
+![Common word ladder](/assets/images/common_word_ladder.png)
 {: refdef}
 
 Seems to come up a lot. This feels like a very intuitive definition of
@@ -132,4 +109,14 @@ importance.
 > The importance of a word is defined by how many direct paths goes through
 > it.
 
+We can now run a simulation where we take two random words in our network and
+find the shortest path between them. If we then mark the words in the paths
+we will get a score for every word representing the total number of paths using
+that word.
 
+## Unfinished
+
+I would have liked to finish this properly. Do animations and such. Turns
+out that the most common word in the word ladder is actually "bios" for some
+reason. I did not have the energy to learn how to make animations using
+networkx and matplotlib.
